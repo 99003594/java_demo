@@ -25,13 +25,13 @@ public class InningsMain {
 		    System.out.println("Name:"+teamname);
 		    System.out.println("Scored:"+inningsname);
 	    	int d=c+1;
-		    if(b == "second")
+		    if(b.equals("second"))
 		    {
 		    	System.out.println("Match Ended.");
 		    }
 		    else
 		    {
-		    	System.out.println("Need  to win"+d);
+		    	System.out.println("Need " + d +  " to win");
 		    }
 		  }
 }
