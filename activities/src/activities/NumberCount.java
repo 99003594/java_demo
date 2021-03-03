@@ -19,13 +19,14 @@ public class NumberCount {
 		int result;
 		Scanner sc = new Scanner(System.in);
 		n = sc.nextInt();
-		search = sc.nextInt();
+		
 		int[] arr = new int[n];
 		for(int i=0;i<n;i++){
 		arr[i] = sc.nextInt();
 		}
 		if(n>0)
 		{
+			search = sc.nextInt();
 		result = findElementCount(arr,n,search);
 		System.out.println(result);
 		}

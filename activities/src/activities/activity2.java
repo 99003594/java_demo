@@ -15,7 +15,7 @@ public class activity2 {
 		   System.out.println("Invalid score");
 		}
 		if(a[i] > score){
-		   System.out.println(a[i]);
+		   System.out.println(a[i-1]);
 		}
 		}
 		}
@@ -23,11 +23,12 @@ public class activity2 {
 		Scanner sc = new Scanner(System.in);
 		int l,p;
 		l=sc.nextInt();
-		p=sc.nextInt();
+		
 		int[] arr = new int[l];
 		for(int j=0;j<l;j++){
 		arr[j] = sc.nextInt();
 		}
+		p=sc.nextInt();
 		findCricketerId(arr,l,p);
 		}
 }
