@@ -23,7 +23,7 @@ public class InningsMain {
 			    String inningsname = obj.getInningsname();
 			    int runs = obj.getRuns();
 		    System.out.println("Name:"+teamname);
-		    System.out.println("Scored:"+inningsname);
+		    System.out.println("Scored:"+runs);
 	    	int d=c+1;
 		    if(b.equals("second"))
 		    {
